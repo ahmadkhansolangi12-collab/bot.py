@@ -10,8 +10,8 @@ import pytz
 # =========================
 # TELEGRAM BOT DETAILS
 # =========================
-BOT_TOKEN = os.getenev("BOT_TOKEN")
-CHAT_ID =  os.getenev("CHAT_ID")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 # =========================
 # GMAIL ACCOUNTS
